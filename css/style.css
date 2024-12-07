@@ -5,7 +5,7 @@ html {
 }
 
 .grid-container {
-  display: grid;
+  display: inline-grid;
   grid-template-columns: auto auto auto;
   justify-content: space-evenly; 
   align-content: space-evenly; 
