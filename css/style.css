@@ -42,6 +42,22 @@ div.combined {
 	padding-right: 25px;
 	padding-bottom: 25px;
 	background-color: #9E9E9E;
+	/* transition-property: border-style,border-color,background-color;
+	transition-duration: 5s;
+	transition-timing-function: linear;
+	transition-delay: 2s;	*/
+}
+
+div:hover {
+	border-style: solid; 
+	border-color: green;
+	background-color: yellow;
+}
+
+div:active {
+	border-style: dashed; 
+	border-color: blue;
+	background-color: yellow;
 }
 
 footer {
@@ -85,10 +101,22 @@ img.grid-container {
   border: solid black;
   background-color: grey;
 }
+/* 
+img:nth-child(odd)  {
+  border: solid red;
+  background-color: magenta;
+}
+
+img:nth-child(3n+2)  {
+  border: solid yellow;
+  background-color: black;
+}
+*/
 
 img:hover{
-  background-color: #00ffe7;
+  /* background-color: #00ffe7; */
   border: solid blue;
+  transform: scale(1.5,120%);
 }
 
 .grid-item {
@@ -234,6 +262,7 @@ li {
   border: solid black;
   background-color: grey;
 }
+
 #mainLogo {
     border: azure;
     margin: 0 auto;
@@ -256,8 +285,8 @@ a[href$=".com"] {
   margin-left: auto;
   margin-right: auto;
   width: 30%;
-  height: 30%;
 }
 .pic {
   height: 30%;
 }
+
